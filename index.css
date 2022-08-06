@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #6943FF;
+}
+
+#miu{
+     margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color: white;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+#box{
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    width: 117px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    height: 83px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6943FF;
+    color: white;
+    font-size: 55px;
+    -webkit-appearance: none;
+}
+
+#num{
+    color: white;
+    font-size: 55px;
+    line-height: 1px;
+    font-weight: 800;
+    margin-top: 44px;
+   
+}
+
+#convert{
+    width: 117px;
+    height: 42px;
+
+    margin-bottom: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+ margin-left: auto;
+    margin-right: auto;
+}
+
+#measurement{
+    background-color: #1F2937;
+    padding-top: 36px;
+    padding-bottom: 200px;
+}
+
+.mBoxes{
+    margin-top: px;
+    width: 500px;
+    height: 108.57px;
+    background: #273549;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 23px;
+border-radius: 4.68077px 0px 0px 0px;
+
+}
+
+.pBoxes{
+    color: #CCC1FF;
+    font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+padding-top: 31px;
+
+}
+
+#shortP{
+    color: white;
+}
+#shortP2{
+     color: white;
+}
+#shortP3{
+     color: white;
+}
